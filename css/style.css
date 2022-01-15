@@ -14,6 +14,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+    
 }
 /* navigation */
 nav{
@@ -118,7 +119,7 @@ nav{
 .contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    margin-bottom: 30px;
     grid-gap: 50px;
     height: 500px;
 }
@@ -131,6 +132,7 @@ nav{
     align-items: center;
     
 }
+
 .textfield{
     width: 100%;
     margin: 10px 0;
@@ -176,6 +178,12 @@ footer{
     padding: 50px 0;
     text-align: center;
 }
+.camera-left p{
+    text-align: center;
+}
+.camera-left h1{
+    text-align: center ;
+}
 .camera-right{
     align-items: center;
 }
@@ -192,7 +200,7 @@ footer{
     width: 100%;
 }
 .contact{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 .nav-toggler-icon{
@@ -219,5 +227,6 @@ footer{
 footer{
     width:100%;
     height: fit-content;
+    margin-top: 150px;
 }
 }
