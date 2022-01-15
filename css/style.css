@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap')
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     font-family: 'Merriweather', serif;
 }
 /* common class */
@@ -98,6 +100,12 @@ nav{
     width: 270px;
 
 }
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE
+}
 .more{
     display: flex;
     justify-content: flex-end;
@@ -110,8 +118,8 @@ nav{
 .contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
+    
+    grid-gap: 50px;
     height: 500px;
 }
 .contact-left img{
